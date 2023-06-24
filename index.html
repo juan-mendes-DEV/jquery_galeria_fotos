@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria de fotos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <h1>galeria de fotos</h1>
+        <button type="button">Adicionar +</button>
+    </header>
+    <form>
+        <h2>inserir nova imagem</h2> 
+        <input id="enderecoDaimagem" type="url" placeholder="insira a url da imagem " required >
+        <button type="submit">Adicionar</button>
+        <button id="cancelar" type="reset">cancelar</button>
+    </form>
+    <ul type="none">
+        <li>
+            <img/>
+            <div class="overlay">
+                <a href="#" title="ver imagem em tamanho real" target="_blank">ver imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
